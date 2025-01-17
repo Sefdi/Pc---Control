@@ -11,7 +11,8 @@ $ pip install -r requirements.txt
 В файл `config.py`, в переменные *TOKEN* и *CHAT_ID* записать соответствующие данные.
 
 ### Пример 👀
-![Example](https://github.com/Fsoky/BadBot-telegram/blob/master/images/example.png)
+![Example](https://github.com/Sefdi/Pc---Control/blob/main/images/exemple%202.png)
+![Example](https://github.com/Sefdi/Pc---Control/blob/main/images/exemple.png)
 
 ### Присоединяйся к нам
 [![Vkontakte](https://img.shields.io/badge/Vkontakte-black?style=for-the-badge&logo=VK)](https://vk.com/fsoky)
