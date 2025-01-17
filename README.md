@@ -2,8 +2,8 @@
 
 ### Установка 💾
 ```
-$ git clone https://github.com/Fsoky/BadBot-telegram.git
-$ cd BadBot-telegram
+$ git clone https://github.com/Sefdi/Pc---Control.git
+$ cd Pc---Control-main
 $ pip install -r requirements.txt
 ```
 
