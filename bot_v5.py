@@ -173,29 +173,6 @@ def shutdown_pc(message):
 def restart_pc(message):
 	bot.delete_message(message.chat.id, message.message_id)
 	subprocess.run("shutdown /r /t 1", shell=True)
-	
-# Функция для поиска и завершения процесса Discord
-def find_and_stop_discord():
-        try: 
-            # Перебираем все запущенные процессы
-            for process in psutil.process_iter(['pid', 'name']):
-                # Проверяем, есть ли среди них Discord
-                if 'Discord.exe' in process.info['name'].lower():
-                    print(f"Найден процесс Discord с PID {process.info['pid']}. Завершаем...")
-                    # Завершаем процесс
-                    psutil.Process(process.info['pid']).terminate()
-                    break
-            else:
-                print("Процесс Discord не найден. Ничего не делаем.")
-
-        except Exception as e:
-              print(e)
-
-
-@bot.message_handler(commands = ["panic"])
-def panic_fun(message):
-	bot.delete_message(message.chat.id, message.message_id)
-	find_and_stop_discord()
 
 @bot.message_handler(commands =["status"])
 def pc_status(message):
