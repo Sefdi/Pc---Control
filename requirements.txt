@@ -8,5 +8,5 @@ psutil
 g4f
 os_sys
 DateTime
-cv2
+opencv-python
 py
