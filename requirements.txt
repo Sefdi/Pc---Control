@@ -6,7 +6,7 @@ telebot
 requests
 psutil
 g4f
-os_sys
+os-sys
 DateTime
 opencv-python
 py
